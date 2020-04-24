@@ -59,7 +59,7 @@
                                                 fill-rule="evenodd"></path>
                                         </svg></span></button>
                             </div>
-                            <button onclick="testGet()" type="submit" class="Button SignFlow-submitButton Button--primary Button--blue">登录</button>
+                            <button onclick="testPost()" type="submit" class="Button SignFlow-submitButton Button--primary Button--blue">登录</button>
                             <div class="SignContainer-tip">
                                 <div>
                                     <div>未注册手机验证后自动登录，注册即代表同意<a href="javascript:;">《知乎协议》</a><a href="javascript:;">《隐私保护指引》</a></div>
@@ -143,26 +143,45 @@
                         d="M16.036 19.59a1 1 0 0 1-.997.995H9.032a.996.996 0 0 1-.997-.996v-7.005H5.03c-1.1 0-1.36-.633-.578-1.416L11.33 4.29a1.003 1.003 0 0 1 1.412 0l6.878 6.88c.782.78.523 1.415-.58 1.415h-3.004v7.005z">
                     </path>
                 </svg></button></div>
+        <button onclick="testPost()" type="submit" class="Button SignFlow-submitButton Button--primary Button--blue">登录</button>
     </div>
-    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
         function testGet() {
             axios({
-                baseURL: 'http://47.97.204.234:3000/user/state',
-                method: 'GET'
+                url: 'http://47.97.204.234:3000/user/state',
+                method: 'GET',
+                params: {},
+                data: {}
+            })
+        }
+
+        function testPost() {
+            anxios({
+                url: 'http://47.97.204.234:3000/user/login',
+                method: 'POST',
+                data: {
+                    "username": "yq",
+                    "password": "123"
+                }
             })
         }
 
         function axios({
-            baseurl,
+            url,
             method = 'GET',
             params = {},
             data = {}
         }) {
             return new Promise((resolve, reject) => {
+                let queryString = ''
                 const request = new XMLHttpRequest()
-                request.open(method, baseURL, true)
-                request.send(data, stringify)
+                request.open(method, url, true)
+                if (method === 'GET') {
+                    request.send()
+                } else if (method === 'POST') {
+                    request.setRequestHeader('Content-Type', 'application/json;charset=utf-8')
+                    request.send(JSON.stringify(data))
+                }
             })
         }
     </script>
