@@ -1,0 +1,561 @@
+.SignFlowHomepage {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-image: url(https://static.zhihu.com/heifetz/assets/sign_bg.db29b0fb.png);
+    background-repeat: no-repeat;
+    background-color: #b8e5f8;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+}
+
+.SignFlowHomepage-content {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    border-radius: 2px;
+    min-height: 688px;
+    height: calc(100% - 42px);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.SignFlowHomepage-logo {
+    width: 128px;
+    height: 81px;
+    margin-bottom: 24px;
+}
+
+.css-1vwxb96 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 3px rgba(26, 26, 26, 0.1);
+    border-radius: 2px;
+    background-color: #FFFFFF;
+    width: 400px;
+    overflow: hidden;
+}
+
+.SignContainer-content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.SignContainer-inner {
+    position: relative;
+    border-radius: 4px 4px 0 0;
+    overflow: hidden;
+}
+
+.Login-content {
+    padding: 0 24px 84px;
+}
+
+.Login-content {
+    padding: 0 24px 84px;
+}
+
+.SignFlow-tabs {
+    text-align: left;
+}
+
+.SignFlow-tab--active {
+    position: relative;
+    color: #1a1a1a;
+    font-weight: 600;
+    font-synthesis: style;
+}
+
+.SignFlow-tab--active:after {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    content: "";
+    width: 100%;
+    height: 3px;
+    background-color: #0084ff;
+}
+
+.SignFlow-tab {
+    display: inline-block;
+    color: #444;
+    font-size: 16px;
+    line-height: 60px;
+    height: 60px;
+    margin-right: 24px;
+    cursor: pointer;
+}
+
+.SignFlow-qrcodeTab {
+    position: absolute;
+    width: 52px;
+    height: 52px;
+    top: 0;
+    right: 0;
+}
+
+.SignFlow-account {
+    margin-top: 24px;
+    border-bottom: 1px solid #ebebeb;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.SignFlowInput {
+    position: relative;
+}
+
+.Button--withIcon.Button--link,
+.Button--withIcon.Button--plain {
+    padding: 0;
+    font-size: 18px;
+}
+
+.Button-zi {
+    fill: currentcolor;
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.SignFlow-supportedCountriesSelectContainer {
+    display: inline-block;
+    min-width: 72px;
+}
+
+.Popover {
+    position: relative;
+    display: inline-block;
+}
+
+.Select-plainButton {
+    padding: 0;
+    border: 1px solid transparent;
+}
+
+.Select-arrow {
+    margin-left: 8px;
+}
+
+.InputButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.SignFlow-accountSeperator {
+    width: 1px;
+    height: 22px;
+    margin: 0 12px;
+    background: #ebebeb;
+}
+
+.SignFlow-accountInputContainer {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    overflow: hidden;
+}
+
+.SignFlowInput input.Input {
+    height: 48px;
+}
+
+.SignContainer-content .Input-wrapper {
+    width: 100%;
+    height: 48px;
+    padding: 0;
+    color: #8590a6;
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+    border-radius: 0;
+}
+
+.Input-wrapper {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 180px;
+    height: 34px;
+    padding: 4px 10px;
+    font-size: 14px;
+    background: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background .2s, border .2s;
+    transition: background .2s, border .2s;
+}
+
+.SignFlow-password {
+    position: relative;
+    margin-top: 12px;
+}
+
+.SignFlow-switchPassword {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+.Button--plain:hover {
+    color: #76839b;
+}
+
+.SignFlowInput-requiredErrorMask {
+    right: auto!important;
+    width: 100%;
+    padding-left: 0;
+    text-align: left;
+}
+
+.SignFlow-smsInputContainer {
+    position: relative;
+    margin-top: 12px;
+}
+
+.SignFlow .SignFlow-accountInput,
+.SignFlow .SignFlow-smsInput {
+    width: auto;
+}
+
+.SignFlow-smsInputButton {
+    position: absolute;
+    top: 24px;
+    right: 0;
+    padding: 4px 0;
+    color: #175199;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-size: 14px;
+}
+
+.Login-socialButton {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.Login-socialIcon {
+    margin-right: 6px;
+}
+
+.Login-socialButton:not(:first-child) {
+    margin-left: 22px;
+}
+
+.Button {
+    color: #8590a6;
+    text-align: center;
+    cursor: pointer;
+    background: none;
+    font-size: 14px;
+}
+
+.Login-options {
+    margin-top: 12px;
+    height: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    background: #fff;
+}
+
+.Login-switchType,
+html[data-theme=dark] .Login-switchType {
+    color: #175199;
+}
+
+.Login-cannotLogin {
+    float: right;
+}
+
+.Button--primary.Button--blue {
+    color: #fff;
+    background-color: #0084ff;
+}
+
+.Button--primary.Button--blue:hover {
+    border-color: #0077e6;
+    background-color: #0077e6;
+}
+
+.SignFlow-submitButton {
+    width: 100%;
+    margin-top: 30px;
+    height: 36px;
+}
+
+.SignContainer-tip {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 12px 24px;
+    color: grey;
+    font-size: 13px;
+}
+
+.SignContainer-tip>div {
+    text-align: left;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.SignContainer-tip {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 12px 24px;
+    color: grey;
+    font-size: 13px;
+}
+
+.SignContainer-tip>div {
+    text-align: left;
+}
+
+.SignFlowQRImage--isHidden {
+    opacity: 0;
+    height: 0;
+    bottom: 0;
+}
+
+.css-1hmxk26 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    border-top: 1px solid;
+    border-color: #EBEBEB;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.css-jzr1wa {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    color: #175199;
+    color: inherit;
+}
+
+.css-eow14e {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-align: right;
+}
+
+.css-1pk3pp1 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: #0084FF;
+    width: 400px;
+    height: 60px;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.css-c01qo8 {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: inline-block;
+    text-align: center;
+    line-height: inherit;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+    font-size: inherit;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    background-color: #0084FF;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #0084FF;
+    border-radius: 4px;
+    background-color: unset;
+    color: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    padding: 0;
+}
+
+.css-vfpo4o {
+    margin-right: .5em;
+}
+
+.Login-socialLogin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    color: #8590a6;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 24px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.Login-socialButtonGroup {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 2px;
+    -webkit-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.SignFlowHomepage-footer {
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 1px 2px #999;
+    padding-bottom: 20px;
+}
+
+.CornerButtons {
+    position: fixed;
+    bottom: 0;
+    right: 12px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    transition: -webkit-transform .2s ease;
+    -webkit-transition: -webkit-transform .2s ease;
+    transition: transform .2s ease;
+    transition: transform .2s ease, -webkit-transform .2s ease;
+    will-change: transfrom;
+}
+
+.CornerAnimayedFlex {
+    width: 40px;
+    height: 52px;
+    -webkit-transition: height .2s ease;
+    transition: height .2s ease;
+}
+
+.CornerButton {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    color: #8590a6;
+    -webkit-box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+    box-shadow: 0 1px 3px rgba(26, 26, 26, .1);
+}
+
+.CornerAnimayedFlex--hidden {
+    height: 0;
+}
+
+.SignFlowHomepage-footer a:not(:last-child):after,
+.SignFlowHomepage-footer span:not(:last-child):after {
+    content: " \B7 ";
+    white-space: pre;
+    display: inline-block;
+}
